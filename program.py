@@ -1,4 +1,5 @@
-from multiprocessing.connection import Listener, Key
+from pynput.keyboard import Key, Listener
+from intertools import count
 import pynput
 
 
